@@ -32,8 +32,7 @@ function AddRoutes() {
   const { routes } = useSelector((state) => state.routes);
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    // googleMapsApiKey: "AIzaSyA2DNfK6M28R372at9GsRKi1m6TqJMZFD8",
-    googleMapsApiKey: "AIzaSyCnd6OQAhCYHrCq1PERbyNbxojViavNzq0",
+    googleMapsApiKey: "AIzaSyA2DNfK6M28R372at9GsRKi1m6TqJMZFD8",
     libraries: libraries,
   });
   const [stops, setStops] = useState([

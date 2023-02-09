@@ -189,8 +189,7 @@ function ViewRoutes() {
   const navigate = useNavigate();
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    // googleMapsApiKey: "AIzaSyA2DNfK6M28R372at9GsRKi1m6TqJMZFD8",
-    googleMapsApiKey: "AIzaSyCnd6OQAhCYHrCq1PERbyNbxojViavNzq0",
+    googleMapsApiKey: "AIzaSyA2DNfK6M28R372at9GsRKi1m6TqJMZFD8",
     libraries: libraries,
   });
 
